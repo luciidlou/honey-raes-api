@@ -71,6 +71,16 @@
             "id": 2,
             "name": "Rose Schmitt",
             "specialty": "Printers"
+        },
+        {
+            "id": 3,
+            "name": "Bob Bobberson",
+            "specialty": "Cameras"
+        },
+        {
+            "id": 4,
+            "name": "Frank Reynolds",
+            "specialty": "Computers"
         }
     ],
     "serviceTickets": [
