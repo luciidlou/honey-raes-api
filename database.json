@@ -1,104 +1,149 @@
 {
-    "customers": [
-        {
-            "id": 1,
-            "name": "Dion Stoade",
-            "address": "6866 4th Court",
-            "email": "dstoade0@cornell.edu"
-        },
-        {
-            "id": 2,
-            "name": "Windy Thorneloe",
-            "address": "59924 Beilfuss Center",
-            "email": "wthorneloe1@usa.gov"
-        },
-        {
-            "id": 3,
-            "name": "Hillie Phillpotts",
-            "address": "21 Straubel Point",
-            "email": "hphillpotts2@rakuten.co.jp"
-        },
-        {
-            "id": 4,
-            "name": "Jobye Danielou",
-            "address": "7 Pleasure Terrace",
-            "email": "jdanielou3@apple.com"
-        },
-        {
-            "id": 5,
-            "name": "Gabbie Schult",
-            "address": "46273 Oak Trail",
-            "email": "gschult4@tinyurl.com"
-        },
-        {
-            "id": 6,
-            "name": "Vasily Youdell",
-            "address": "0993 Gulseth Avenue",
-            "email": "vyoudell5@globo.com"
-        },
-        {
-            "id": 7,
-            "name": "Debra Blackhurst",
-            "address": "57305 Crowley Alley",
-            "email": "dblackhurst6@last.fm"
-        },
-        {
-            "id": 8,
-            "name": "Helenelizabeth Passfield",
-            "address": "02 Reinke Plaza",
-            "email": "hpassfield7@netvibes.com"
-        },
-        {
-            "id": 9,
-            "name": "Franchot Slator",
-            "address": "4930 Oneill Drive",
-            "email": "fslator8@51.la"
-        },
-        {
-            "id": 10,
-            "name": "Renaud Erbe",
-            "address": "30 Westridge Pass",
-            "email": "rerbe9@psu.edu"
-        }
-    ],
-    "employees": [
-        {
-            "id": 1,
-            "name": "Tom Schamberger",
-            "specialty": "iPhone"
-        },
-        {
-            "id": 2,
-            "name": "Rose Schmitt",
-            "specialty": "Printers"
-        },
-        {
-            "id": 3,
-            "name": "Bob Bobberson",
-            "specialty": "Cameras"
-        },
-        {
-            "id": 4,
-            "name": "Frank Reynolds",
-            "specialty": "Computers"
-        }
-    ],
-    "serviceTickets": [
-        {
-            "id": 1,
-            "customerId": 4,
-            "employeeId": 1,
-            "description": "iPhone case cracked. Please replace.",
-            "emergency": false,
-            "dateCompleted": "2021-05-26"
-        },
-        {
-            "id": 2,
-            "customerId": 7,
-            "employeeId": 4,
-            "description": "Cannot connect to any wifi.",
-            "emergency": true,
-            "dateCompleted": ""
-        }
-    ]
+  "customers": [
+    {
+      "id": 1,
+      "name": "Dion Stoade",
+      "address": "6866 4th Court",
+      "email": "dstoade0@cornell.edu"
+    },
+    {
+      "id": 2,
+      "name": "Windy Thorneloe",
+      "address": "59924 Beilfuss Center",
+      "email": "wthorneloe1@usa.gov"
+    },
+    {
+      "id": 3,
+      "name": "Hillie Phillpotts",
+      "address": "21 Straubel Point",
+      "email": "hphillpotts2@rakuten.co.jp"
+    },
+    {
+      "id": 4,
+      "name": "Jobye Danielou",
+      "address": "7 Pleasure Terrace",
+      "email": "jdanielou3@apple.com"
+    },
+    {
+      "id": 5,
+      "name": "Gabbie Schult",
+      "address": "46273 Oak Trail",
+      "email": "gschult4@tinyurl.com"
+    },
+    {
+      "id": 6,
+      "name": "Vasily Youdell",
+      "address": "0993 Gulseth Avenue",
+      "email": "vyoudell5@globo.com"
+    },
+    {
+      "id": 7,
+      "name": "Debra Blackhurst",
+      "address": "57305 Crowley Alley",
+      "email": "dblackhurst6@last.fm"
+    },
+    {
+      "id": 8,
+      "name": "Helenelizabeth Passfield",
+      "address": "02 Reinke Plaza",
+      "email": "hpassfield7@netvibes.com"
+    },
+    {
+      "id": 9,
+      "name": "Franchot Slator",
+      "address": "4930 Oneill Drive",
+      "email": "fslator8@51.la"
+    },
+    {
+      "id": 10,
+      "name": "Renaud Erbe",
+      "address": "30 Westridge Pass",
+      "email": "rerbe9@psu.edu"
+    },
+    {
+      "name": "Bob Bobberson",
+      "address": "404 Unknown Ave",
+      "email": "bob@bobberson.com",
+      "id": 11
+    }
+  ],
+  "employees": [
+    {
+      "id": 1,
+      "name": "Tom Schamberger",
+      "specialty": "iPhone"
+    },
+    {
+      "id": 2,
+      "name": "Rose Schmitt",
+      "specialty": "Printers"
+    },
+    {
+      "id": 3,
+      "name": "Bob Bobberson",
+      "specialty": "Cameras"
+    },
+    {
+      "id": 4,
+      "name": "Frank Reynolds",
+      "specialty": "Computers"
+    },
+    {
+      "name": "Ned Shneebly",
+      "specialty": "Audio",
+      "id": 5
+    },
+    {
+      "name": "Oliver Hart",
+      "specialty": "Lighting",
+      "id": 6
+    },
+    {
+      "name": "Sally Sitwell",
+      "specialty": "Gaming consoles",
+      "id": 7
+    }
+  ],
+  "serviceTickets": [
+    {
+      "id": 1,
+      "customerId": 4,
+      "employeeId": 1,
+      "description": "iPhone case cracked. Please replace.",
+      "emergency": false,
+      "dateCompleted": "2021-05-26"
+    },
+    {
+      "id": 2,
+      "customerId": 7,
+      "employeeId": 4,
+      "description": "Cannot connect to any wifi.",
+      "emergency": true,
+      "dateCompleted": ""
+    },
+    {
+      "description": "My computer is crashing on startup!",
+      "emergency": true,
+      "employeeId": 1,
+      "customerId": 11,
+      "dateCompleted": "",
+      "id": 3
+    },
+    {
+      "description": "My laptop isn't producing any sound",
+      "emergency": false,
+      "employeeId": 1,
+      "customerId": 11,
+      "dateCompleted": "",
+      "id": 4
+    },
+    {
+      "description": "My xbox exploded in a blaze of glory",
+      "emergency": true,
+      "employeeId": 1,
+      "customerId": 11,
+      "dateCompleted": "",
+      "id": 5
+    }
+  ]
 }
