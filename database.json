@@ -102,6 +102,11 @@
       "name": "Sally Sitwell",
       "specialty": "Gaming consoles",
       "id": 7
+    },
+    {
+      "name": "Glenn Howerton",
+      "specialty": "Videography",
+      "id": 8
     }
   ],
   "serviceTickets": [
